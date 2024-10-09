@@ -1,0 +1,116 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+.button{
+    /* justify-content: space-between; */
+}
+.button{
+    padding: 20px;
+    align-items: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: #075fe4;
+    border-radius: 8px;
+}
+.bg {
+    background-image: url(WhatsApp\ Image\ 2024-10-03\ at\ 10.37.01_e96ae5d1.jpg);
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+.item{
+    display: flex;
+    gap: 20px;
+    padding: 0 59px;
+    justify-content: space-between;
+    color: white;
+    font-weight: 1000;
+    border: none;
+}
+#zz{
+    bottom: 50px;
+}
+.tt{
+    height: 45px;
+    width: 150px;
+    background-color: white;
+    color: orangered;
+    border-radius: 50px;
+    border: 2px solid orangered;
+}
+.hh{
+    height: 45px;
+    width: 150px;
+    background-color: orangered;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+.ef{
+    color: white;
+    font-weight: 500px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.for{
+    background-color: white;
+    border-radius: none;
+    width: 300px;
+    height: 50px;
+    margin-left: 20px;
+    color: wheat;
+}
+hr{
+    width: 500px;
+    margin-right: 700px;
+}
+.to{
+    color: white;
+}
+.st{
+    border-radius: 50px;
+    height: 45px;
+    width: 150px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+.st:hover{
+    background-color: white;
+    color: orangered;
+}
+.vv {
+    text-align: end;
+    /* margin-right: 200px; */
+    /* gap: 50px; */
+    /* margin-top: 150px; */
+}
+.tt:hover{
+    background-color: orangered;
+    color: white;
+}
+.hh:hover{
+    background-color: brown;
+    color: white;
+}
+#the{
+    text-align: center;
+}
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1px;
+    /* grid-template-columns: repeat(5,1fr); */
+}
+.grid-items{
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 200px;
+}
+
